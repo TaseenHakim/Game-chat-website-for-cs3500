@@ -1,0 +1,63 @@
+:root{
+    --player1-color: #FFC240;
+    --player2-color: #0B56E0;
+    --heading-color: #FFC240;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+#game-title{
+    color: var(--heading-color) !important;
+}
+
+#scoreboard-title{
+    color: var(--heading-color) !important;
+}
+
+#board{
+    background-color: var(--primary-color);
+    height: 495px;
+    min-width: 580px;
+    max-width: 580px;
+    border: 5px solid #250316;
+}
+
+.tile{
+    background-color: var(--background-color);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 5px solid #250316;
+    margin: 5px
+}
+
+.tile.player1{
+    background-color: var(--player1-color);
+}
+
+.tile.player2{
+    background-color: var(--player2-color)
+}
+
+#chatbar-title{
+    color: var(--heading-color);
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.table-dark td, .table-dark th, .table-dark thead th{
+    border-color: var(--secondary-color);
+}
+
+.person-img{
+    height: 45px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.chat{
+    height: 60px;
+    border-bottom: 1px solid var(--secondary-color);
+}
+

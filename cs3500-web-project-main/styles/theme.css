@@ -1,0 +1,95 @@
+:root {
+    /* The variables goes here */
+    /* All Color variables  */
+    --primary-color: #C3073F;
+    --secondary-color: #FFF;
+    
+    --background-color: #1A1A1D;
+
+    
+}
+
+
+/* Navigation Bar */
+/* Main Bar*/
+#navigation-bar{
+    background-color: var(--background-color) !important;
+}
+
+/* Active Page  */
+.active{
+    border-bottom: 1px solid var(--primary-color);
+}
+
+
+/* footer */
+
+#footer{
+    height: 3.2rem;
+}
+
+
+/* Some Changes that overwrites the bootstar classes */
+.text-primary{
+    color: var(--primary-color) !important;
+}
+
+.text-secondary{
+    color: var(--secondary-color) !important;
+}
+
+
+.card-title{
+    color: var(--primary-color);
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+    border: 0px;
+}
+
+.btn-primary:hover{
+    background-color: #fff;
+    color: var(--background-color);
+}
+
+.btn-primary:active{
+    background-color: var(--primary-color) !important;
+    color: var(--secondary-color) !important;
+}
+.btn-outline-success{
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.btn-outline-success:hover{
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+
+.dropdown-item.active, .dropdown-item:active {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border: 0px solid var(--primary-color) !important;
+}
+
+/* Utilities  */
+.background-transparent {
+    background-color: transparent;
+}
+
+
+.color-primary{
+    color: var(--primary-color) !important;
+}
+
+
+.color-secondary{
+    color: var(--secondary-color) !important;
+}
+
+
+.color-background{
+    color: var(--background-color) !important;
+}

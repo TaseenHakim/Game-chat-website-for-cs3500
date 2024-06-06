@@ -1,0 +1,82 @@
+/* changng backgrounf color */
+body {
+    background-color: var(--background-color);
+}
+
+
+/* title text properties */
+#title-text {
+    color: var(--primary-color);
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* making all text similar color */
+.all-text {
+    color: var(--secondary-color);
+}
+
+
+/* main-form padding */
+.container {
+    padding: 16px;
+}
+
+
+/* making a border line around the main form */
+#log-form {
+    border: 1px solid var(--primary-color);
+    border-radius: 6px;
+}
+
+
+/* sending forgot-password to the right side */
+span.psw {
+    float: right;
+}
+
+
+/* ancore tag color-change */
+a {
+    color: var(--primary-color);
+}
+/* hover color change */
+a:hover {
+    color: var(--secondary-color)
+}
+
+
+/* create new account button properties after hovering */
+.btn-success:hover{
+    background-color: #fff;
+    color: var(--background-color);
+    font-weight: bold;
+}
+
+
+/* creating border aroung the create new account and policies. */
+#new-account {
+    border: 1px solid var(--primary-color);
+    border-radius: 6px;
+    padding-top: 2px;
+    padding-bottom: 7px;
+}
+
+#pwd-no-match{
+    color: var(--primary-color) !important;
+}
+
+
+.display-none{
+    display: none;
+}
+
+
+.margin-bottom-10{
+    margin-bottom: 10px !important;
+}
+
+.req-field{
+    color: var(--primary-color) !important;
+}

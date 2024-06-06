@@ -1,0 +1,40 @@
+body{
+    background-color: var(--background-color);
+    color: var(--secondary-color)
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+.padding-bottom-0 {
+    padding-bottom: 0 !important;
+}
+
+.custom-border {
+    border-bottom: 2px solid #fff !important;
+}
+
+
+.social-icon {
+    font-size: 100px;
+}
+
+.bi:hover{
+    cursor: pointer;
+    border-radius: 50%;
+}
+.bi-facebook:hover{
+    color: #4267B2;
+    background-color: white;
+}
+
+.bi-twitter:hover{
+    color: #00acee;
+}
+
+.bi-youtube:hover{
+    color: #c4302b;
+
+}
+

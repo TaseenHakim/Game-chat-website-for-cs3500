@@ -1,0 +1,32 @@
+/* changing background color */
+body {
+    background-color: var(--background-color);
+}
+
+h5 {
+    color: rgb(5, 209, 5) !important;
+}
+
+/* making all text similar color */
+h2 {
+    color: var(--secondary-color);
+}
+
+p {
+    color: var(--secondary-color);
+    font-size: 20px;
+}
+
+/* aligning to a appropiate position */
+.container {
+    padding-top: 150px;
+}
+
+/* ancore tag color-change */
+a {
+    color: var(--primary-color);
+}
+/* hover color change */
+a:hover {
+    color: var(--secondary-color)
+}

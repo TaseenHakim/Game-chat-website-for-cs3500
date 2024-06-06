@@ -1,0 +1,74 @@
+:root{
+    --heading-color: #FFC240;
+}
+/* backgroung color */
+body {
+    background-color: var(--background-color);
+}
+
+/* toc title text */
+h1 {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+
+/* table hwight weight configure and responsive properties */
+#game table {
+    max-width: 420px;
+    max-height: 420px;
+    width: 50vw;
+    height: 50vw;
+    border-spacing: 0px;
+    min-width: 300px;
+    min-height: 300px;
+}
+
+/* getting the table in the middle */
+#game .center {
+    margin: 0 auto;
+}
+
+/* defining width and height of every cell */
+#game td {
+    width: 33%;
+    height: 33%;
+}
+
+/* cell's height and weight */
+#game .cell {
+    height: 100%;
+    width: 100%;
+    font-size: 5vw;
+}
+
+
+/* reset button congifure */
+#reset {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#game-title{
+    color: var(--heading-color) !important;
+}
+
+#scoreboard-title{
+    color: var(--heading-color) !important;
+}
+
+#chatbar-title{
+    color: var(--heading-color);
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.person-img{
+    height: 45px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.chat{
+    height: 60px;
+    border-bottom: 1px solid var(--secondary-color);
+}
